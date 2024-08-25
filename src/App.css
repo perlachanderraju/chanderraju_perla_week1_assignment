@@ -1,0 +1,85 @@
+
+/* */
+.top-container{
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,50,0.8));
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+.feedback-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Roboto";
+}
+.formSection{
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  max-width: 150px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.submitted-data {
+  margin-top: 30px;
+}
+
+.submitted-data h2 {
+  text-align: center;
+}
+
+.submitted-data p {
+  margin: 10px 0;
+  font-size: 16px;
+}
